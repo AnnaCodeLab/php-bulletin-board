@@ -1,0 +1,58 @@
+input,textarea {
+  outline: none;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(45deg, pink, lightyellow) no-repeat;
+  color: #333333;
+}
+.title {
+  text-align: center;
+  font-size: 34px;
+}
+
+.boardWrapper {
+  background-color: #fff;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+section {
+  padding: 0px 10px;
+}
+
+section .username {
+  color: rgba(0, 0, 128, 0.775) !important;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+section .nameArea {
+  display: flex;
+  align-items: center;
+  margin-bottom: -14px;
+}
+
+section .comment {
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.formWrapper {
+  padding: 16px;
+  margin-left: 20px;
+}
+
+.formWrapper input {
+  border-radius: 4px;
+}
+
+.commentTextArea {
+  margin-top: 10px;
+  width: 500px;
+  height: 90px;
+}
